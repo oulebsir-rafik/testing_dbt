@@ -1,0 +1,9 @@
+jaffle_shop:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: /workspaces/testing_dbt/duckdb/database.duckdb
+      database: database
+      schema: dbt_alice
+      threads: 4
