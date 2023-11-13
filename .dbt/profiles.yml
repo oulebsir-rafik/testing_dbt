@@ -3,7 +3,4 @@ jaffle_shop:
   outputs:
     dev:
       type: duckdb
-      path: /workspaces/testing_dbt/duckdb/database.duckdb
-      database: database
-      schema: dbt_alice
-      threads: 4
+      path: /workspaces/testing_dbt/duckdb/jaffle_shop.duckdb

@@ -1,0 +1,12 @@
+{
+    "sqltools.connections": [
+        {
+            "name": "jaffle_shop",
+            "accessMode": "Read Only",
+            "previewLimit": 50,
+            "driver": "DuckDB",
+            "databaseFilePath": "/workspaces/testing_dbt/duckdb/jaffle_shop.duckdb"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
